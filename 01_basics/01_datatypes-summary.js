@@ -49,3 +49,35 @@ console.log("NOn Primetive Datatype")
 console.log(typeof heros)
 console.log(typeof myObject)
 console.log(typeof functionValue)
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Memory manegment 
+
+// 1. Stack => Primitive Datatypes , (varieable ya value ki copy pass hai)
+
+
+// For Example
+
+let myname = "Suraj rajput"     // Original Value
+let anothername = myname        // Value of Copy
+anothername = "Suraj singh"     
+
+console.log(myname)
+console.log(anothername)
+
+// 2. Heap => Non Primitive Datatype , (varieable ya value ki referenace pass hota hai)
+
+// for Example
+
+let userOne = {
+    email: "ssssss@gmail.com",
+    password: 9834,
+}
+
+let userTwo = userOne
+ userTwo.email = "djsfgksjhd@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
