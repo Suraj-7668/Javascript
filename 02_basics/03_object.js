@@ -33,6 +33,6 @@ myUser.email = "Rajput@google.com"  // value override
 
 // create a function 
 myUser.greeting  = function(){
-    console.log('hello js user, ${this.name}, and ${this.age}')
+    console.log(`hello js user, ${this.name}, and ${this.age}`)
 }
 console.log(myUser.greeting())
